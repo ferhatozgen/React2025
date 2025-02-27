@@ -17,6 +17,18 @@
   flex-flow: column-reverse;
   justify-content: flex-start;
   flex: 1;
+  font-size: 40px;
+}
+
+.calendar{
+  background-color:azure;
+  padding: 10px;
+  width: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  border-radius: 5px;
+  border: #aa5fca;
+  border-style: solid;
 }
 
 .expense-item h2 {
@@ -44,13 +56,12 @@
     justify-content: flex-start;
     flex: 1;
   }
-
-  .expense-item__description h2 {
-    font-size: 1.25rem;
-  }
-
   .expense-item__price {
     font-size: 1.25rem;
     padding: 0.5rem 1.5rem;
   }
 }
+
+  .expense-item__description h2 {
+    font-size: 1.25rem;
+  }
