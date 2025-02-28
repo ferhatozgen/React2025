@@ -1,8 +1,9 @@
-import Card from "./Card";
+
+import Card from "../UI/Card";
 import ExpenseItem from "./ExpenseItem";
 import "./Expenses.css";
 
-function Expenses ({expenses}){
+const Expenses =({expenses})=>{
 
     return (
         <Card className ="expenses">
@@ -28,6 +29,12 @@ function Expenses ({expenses}){
             title={expenses[3].title}
             date={expenses[3].date}
             amount={expenses[3].amount}
+          ></ExpenseItem>
+          
+          <ExpenseItem
+            title={expenses[4].title}
+            date={expenses[4].date}
+            amount={expenses[4].amount}
           ></ExpenseItem>          
         </Card>
     
